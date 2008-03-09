@@ -12,7 +12,7 @@ Summary:       %{languageenglazy} files for aspell
 Summary(cs):   Český slovník pro korektor překlepů aspell
 Name:          aspell-%{languagecode}
 Version:       20040614.1
-Release:       %mkrel 3
+Release:       %mkrel 4
 Group:         System/Internationalization
 Source:        http://ftp.gnu.org/gnu/aspell/dict/%{languagecode}/%{fname}-%{src_ver}.tar.bz2
 URL:		   http://aspell.sourceforge.net/
@@ -25,6 +25,8 @@ Requires:      aspell >= %{aspell_ver}
 
 # Mandriva Stuff
 Requires:      locales-%{languagecode}
+# aspell = 1, myspell = 2, lang-specific = 3
+Provides:      enchant-dictionary = 1
 Provides:      aspell-dictionary
 Provides:	   aspell-%{lc_ctype}
 Provides:      spell-%{languagecode}
