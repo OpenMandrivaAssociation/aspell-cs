@@ -12,7 +12,7 @@ Summary:       %{languageenglazy} files for aspell
 Summary(cs):   Český slovník pro korektor překlepů aspell
 Name:          aspell-%{languagecode}
 Version:       20040614.1
-Release:       %mkrel 8
+Release:       %mkrel 9
 Group:         System/Internationalization
 Source:        http://ftp.gnu.org/gnu/aspell/dict/%{languagecode}/%{fname}-%{src_ver}.tar.bz2
 URL:		   http://aspell.sourceforge.net/
