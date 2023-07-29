@@ -11,8 +11,8 @@
 Summary:	%{languageenglazy} files for aspell
 Summary(cs):	Český slovník pro korektor překlepů aspell
 Name:		aspell-%{languagecode}
-Version:	20040614.1
-Release:	21
+Version:	20040614_1
+Release:	1
 Group:		System/Internationalization
 License:	GPLv2
 Url:	http://aspell.sourceforge.net/
